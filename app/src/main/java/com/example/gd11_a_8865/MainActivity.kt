@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
         setLoading(true)
 
         val stringRequest: StringRequest = object :
-            StringRequest(Method.DELETE, MahasiswaApi.DELETE_URL, Response.Listener { response ->
+            StringRequest(Method.DELETE, MahasiswaApi.DELETE_URL + id, Response.Listener { response ->
                 setLoading(false)
 
                 val gson = Gson()
@@ -166,7 +166,7 @@ class MainActivity : AppCompatActivity() {
             layoutLoading!!.visibility = View.VISIBLE
         } else {
             window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
-            layoutLoading!!.visibility = View.INVISIBLE
+            layoutLoading!!.visibility = View.GONE
         }
     }
 }
