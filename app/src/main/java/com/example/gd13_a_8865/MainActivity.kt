@@ -1,4 +1,4 @@
-package com.example.gd11_a_8865
+package com.example.gd13_a_8865
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -16,9 +16,9 @@ import com.android.volley.RequestQueue
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.example.gd11_a_8865.adapters.MahasiswaAdapter
-import com.example.gd11_a_8865.api.MahasiswaApi
-import com.example.gd11_a_8865.models.Mahasiswa
+import com.example.gd13_a_8865.adapters.MahasiswaAdapter
+import com.example.gd13_a_8865.api.MahasiswaApi
+import com.example.gd13_a_8865.models.Mahasiswa
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.gson.Gson
 import org.json.JSONObject
